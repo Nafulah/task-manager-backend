@@ -17,7 +17,7 @@ function App(){
       ) : (
         <>
           <h1 style={{textAlign:"center"}}>Task Manager MVP</h1>
-          <p style={{textAlign:"center"}}>Steps 1-4 Complete</p>
+          <p style={{textAlign:"center"}}>Welcome to my Task List</p>
           <Register />
           <hr style={{margin:"20px 0"}} />
           <Login onLogin={()=>setIsLoggedIn(true)} />
